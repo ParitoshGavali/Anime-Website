@@ -7,7 +7,7 @@ To create an Social Media platform for anime nerds !
 
 - Clone it on local machine.
 ```
-git clone <your repository's url>
+git clone https://github.com/<your_username>/Anime-Website.git
 ```
 - Set this repository as upstream.
 ```
