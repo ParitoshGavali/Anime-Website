@@ -1,5 +1,5 @@
 # Anime-Website
-To create an Social Media platform for anime nerds !
+To create a Social Media platform for anime nerds !
 
 ## Getting Started : 
 - Fork this repository into your profile.
@@ -20,7 +20,7 @@ git remote -v
 > Help, I can't understand this origin/upstream BS!! :dizzy_face:
 >> - origin refers to the GitHub repository you cloned from.
 >> - upstream refers to the other GitHub repository you want to pull or push changes to.
->> - So, after entring the above command you should see forked git repo in origin and this git repo in upstream.
+>> - So, after entering the above command you should see forked git repo in origin and this git repo in upstream.
 
 >**_PRO TIP_** :sunglasses: : origin is set automatically by git but the upstream is just a convention used by almost all git users, so you can use any name instead of upstream.
 
@@ -30,7 +30,7 @@ git remote -v
   
   ## How to collaborate : 
   
-  - Before making any change make sure that your are using the latest version of the branch for this , first fetch the changes from upstream and then and them merge whichever upstream branch you want to merge with your branch
+  - Before making any change make sure that you are using the latest version of the branch for this, first fetch the changes from upstream and then merge whichever upstream branch you want to merge with your branch
   - command for fetching from upstream :
   ```
    git fetch upstream
@@ -39,7 +39,7 @@ git remote -v
   ```
    git merge <your_branch_name> upstream/<branch_you_want_to_merge_with> 
   ```
-  - Now You can start working on your feature but before that make sure that you are on correct branch!!
+  - Now you can start working on your feature but before that make sure that you are on the correct branch!!
   - After completing feature, you have to push your changes and you will get **NOTHING**. Because you first have to add the changes you made so that git can understand which modified files you want to push (change the original content to your modified content). For that there is a two step process : 
   - Adding the files you want to push
   ```
