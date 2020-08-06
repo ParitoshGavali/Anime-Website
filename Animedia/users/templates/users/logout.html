@@ -1,0 +1,9 @@
+{% extends 'animelist/base.html' %}
+
+
+{% block content %}
+    <div class="w-25 container pt-4 ">
+        {{ request.user.username }}
+        You logged out successfully !
+    </div>
+{% endblock content %}
