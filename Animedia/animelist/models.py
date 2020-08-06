@@ -12,7 +12,7 @@ class Tag(models.Model) :
 class Anime(models.Model) :
     title = models.CharField(max_length=200)
     genre = models.ManyToManyField('Tag',blank=True)
-    image = models.ImageField(default='default.jpeg',upload_to='anime_pics')
+    image = models.ImageField(default='default.png',upload_to='anime_pics')
     totalEpisodes = models.IntegerField(default=0)
     releaseYear = models.IntegerField(default=0) 
     ongoingStatus = models.BooleanField(default=0)
