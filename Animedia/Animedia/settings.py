@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'home',
     'users',
     'animelist',
+    'wakeau',
     'crispy_forms',
 ]
 
