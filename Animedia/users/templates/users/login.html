@@ -1,0 +1,18 @@
+{% extends 'animelist/base.html' %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+    <div class="w-50 container p-3 my-3 border">
+        <center>Login Form </center>
+        <form method="POST">
+            {% csrf_token %}
+            {{ form|crispy }}
+        <center> 
+            <button class="btn btn-primary" type="submit">Login</button>
+        </center>
+        </form>
+    </div>
+{% endblock content %}
+
+

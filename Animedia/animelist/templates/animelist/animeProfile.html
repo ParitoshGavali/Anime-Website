@@ -1,0 +1,54 @@
+{% extends 'animelist/base.html' %}
+
+
+    {% block content %}
+
+    <div class="content-section">
+
+        <img class="rounded-circle account-img" src="{{ anime.image.url }}">    
+
+        <h2 class="account-heading"> name : {{ anime.title }} </h2>
+
+        <p>
+            Status : 
+                {% if anime.ongoingStatus %}
+                    On Air
+                {% else %}
+                    Complete
+                {% endif %}
+        </p>
+        <p>
+            Total Number of Episodes : 
+                {{ anime.totalEpisodes }}
+        </p>
+        <p>
+            Year released : 
+                {{ anime.releaseYear }}
+        </p>
+        <p>
+            Rating : 
+                {{ anime.rating }}
+        </p>
+        <p>
+            Studios : 
+                {{ anime.studios }}
+        </p>
+        <p>
+            Producers : 
+                {{ anime.producers }}
+        </p>
+        <p>
+            Source : 
+                {{ anime.source }}
+        </p>
+
+
+        <p>
+            Genres :
+                {% for genre in genres %}
+                    {{ genre }}
+                {% endfor %}
+        </p>
+    </div>
+
+    {% endblock content %}
