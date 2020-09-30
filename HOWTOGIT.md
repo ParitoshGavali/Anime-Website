@@ -1,5 +1,6 @@
-# Anime-Website
+# ANIME-WEBSITE
 To create an Social Media platform for anime nerds !
+consider giving contribition in this project.
 
 ## Getting Started : 
 - Fork this repository into your profile.
