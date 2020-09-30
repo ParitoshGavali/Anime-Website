@@ -1,0 +1,20 @@
+[
+    {
+        "model" : "animelist.Anime",
+        "pk" : 3,
+        "fields" : {
+            "title":"Hunter X Hunter",
+            "releaseYear":2011,
+            "genre" : [1,2]
+        }
+    },
+    {
+        "model" : "animelist.Anime",
+        "pk" : 4,
+        "fields" : {
+            "title":"Death Note",
+            "releaseYear":2012,
+            "genre" : [1,5]
+        }
+    }
+]
