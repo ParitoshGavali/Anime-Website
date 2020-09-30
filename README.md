@@ -3,6 +3,7 @@ To create a Social Media platform for anime nerds, where they can rate and keept
 
 ## How to run : 
 To add the necessary libraries run the following after the clonning is done.
+Please install pip module for downloading python packages.
 ```
 pip install django-crispy-forms
 pip install Pillow
